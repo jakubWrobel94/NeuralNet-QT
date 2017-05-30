@@ -24,4 +24,27 @@ Tb1 Tb2 ... Tbm
 ....
 where Ta and Tb are target vectors with m samples.
 
+Example : 
+
+XOR problem : 
+
+Inputs.txt : 
+0 0
+0 1
+1 0
+1 1
+
+Targets.txt
+0
+1
+1
+0
+
+
 After training you can type single vector of n (same size as training sample) values to feedfoward it and see the results.
+
+TODO : 
+- improvment alghoritm - very poor performence for bigger data, net is not learning 
+- improvment alghoritm - improve learning time
+- sometimes net with logistic activation function not working
+
